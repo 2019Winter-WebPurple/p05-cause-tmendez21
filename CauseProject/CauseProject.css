@@ -1,0 +1,49 @@
+/* 
+* Tatiana Mendez
+* May 19, 2019
+* Dog Breed Stereotypes
+*/
+
+/* The universal selector */
+
+* { margin: 0; padding: 0; } /* margin and padding for the universal selector */
+
+/* Body properties here */
+
+body { font-family: "Arial Black", sans-serif; width: 90%; margin: auto; background-color: #ffd6e9; } /*font selector, width, margin, and background color for the body*/
+
+h1 { font-size: 250%; text-align: center; padding: 20px; color: #842352; } /* font size, text align, padding, and color for h1 */
+
+#Pitbull { float: left; margin: 20px; height: 250px; border: 5px dashed #9e479b; } /* floating, margin, height, and border properties for an image using ID selector */
+
+#Doberman { height: 200px; width: 200px; padding: 5px; margin-bottom: 5px; } /* width, margin, height, and padding properties for an image using ID selector */
+
+#StBernard { padding: 5px; margin-bottom: 15px; } /* padding and margin properties for an image using ID selector */
+
+#Chihuahua { padding: 5px; } /* padding properties for an image using ID selector */
+
+#Germanshepherd { padding: 5px; margin-bottom: 10px; } /* padding and margin properties for an image using ID selector */
+
+#Pitbull2 { padding: 5px; } /* padding properties for an image using ID selector */
+
+#bulldog { float: right; margin-right: 20px; margin-left: 20px; margin-bottom: 20px; margin-top: 100px; height: 250px; border: 5px dashed #9e479b; } /* floating, margin, height, and border properties for an image using ID selector */
+
+figure { clear: both; text-align: center; padding: 10px; } /* floating, text aligning, and padding properties for the figure */
+
+h2 { padding-top: 10px; color: #9e479b; } /* padding and color properties for h2 */
+
+h3 { padding-top: 30px; color: #9e479b; } /* padding and color properties for h3 */
+
+p { padding: 10px; } /* padding properties for paragraphs */
+
+#plast { text-align: right; padding: 20px; font-style: italic; } /* padding, text align, and font style properties for #plast with an ID selector */
+
+ul { margin-bottom: 10px; } /* margin properties for unordered lists */
+
+main { border-top: 10px solid white; border-bottom: 10px solid white; } /* border properties for the main */
+
+a:visited { color: #217c91; text-decoration: none; } /*link tag that changes the color and text decoration after a link is visited*/
+
+a:hover, a:focus { font-size: 200%; color: #5c3f70; } /*link tag that changes the font size and color when it is hovered or "tabbed" over*/
+
+a:link { color: #a81f7a; text-decoration: none; } /*link tag for the color and text decoration properties for all links*/
